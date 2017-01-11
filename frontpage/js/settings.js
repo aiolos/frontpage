@@ -104,11 +104,11 @@ $(document).ready(function() {
         ['1143', 'Temp',            'cell5a',   'Boven',        1, 0],
         ['1143', 'Humidity',        'cell5b',   'Boven',        0, 0],
 
-        ['805', 'Temp',             'cell6',    'Buiten', '1', '1'],
-        ['802', 'Temp',             'cell7',    'Schuurtje', '1', '1'],
+        ['2632', 'Temp',             'cell6',    'Buiten', '1', '1'],
+        ['2503', 'Temp',             'cell7',    'Schuurtje', '1', '1'],
         ['447', 'Temp',             'cell8',    'Woonkamer', '1', '0'],
-        ['363', 'Temp',             'cell9',    'Badkamer','1','1'],
-        ['1143', 'Temp',            'cell10',   'Boven','1','1'], //6 is protected when on
+        ['2475', 'Temp',             'cell9',    'Badkamer','1','1'],
+        ['2477', 'Temp',            'cell10',   'Boven','1','1'], //6 is protected when on
 
         ['616', 'CounterToday',     'cell16',   'Vandaag','1','0'],
         ['616', 'Usage',            'cell17',   'Huidig gebruik','1','0'],
