@@ -82,8 +82,10 @@ var doorbell_cmd = "lightbox_open('camera1', 15400);"
 // ############################################################################################################
 
 $(document).ready(function() {
-    $.roomplan = 2; // define roomplan in Domoticz and create items below, don't use roomplan = 0, it will get all your devices, which might slow down domoticz.
-    $.domoticzurl = "http://192.168.1.49:8080";
+    // define roomplan in Domoticz and create items below,
+    // don't use roomplan = 0, it will get all your devices, which might slow down domoticz.
+    $.roomplan = 2;
+    $.domoticzurl = "http://192.168.38.110:8080";
 
     // format: idx, value, label, description,
     // lastseen(1 when lastseen is wanted, 2 is only time),
@@ -104,11 +106,11 @@ $(document).ready(function() {
         ['1143', 'Temp',            'cell5a',   'Boven',        1, 0],
         ['1143', 'Humidity',        'cell5b',   'Boven',        0, 0],
 
-        ['2632', 'Temp',             'cell6',    'Buiten', '1', '1'],
-        ['2503', 'Temp',             'cell7',    'Schuurtje', '1', '1'],
-        ['447', 'Temp',             'cell8',    'Woonkamer', '1', '0'],
+        ['3444', 'Temp',             'cell6',    'Buiten', '1', '1'],
+        ['3443', 'Temp',             'cell7',    'Keuken', '1', '1'],
+        ['3441', 'Temp',             'cell8',    'Woonkamer', '1', '1'],
         ['2475', 'Temp',             'cell9',    'Badkamer','1','1'],
-        ['2477', 'Temp',            'cell10',   'Boven','1','1'], //6 is protected when on
+        ['447', 'Temp',            'cell10',   'Boven','1','1'], //6 is protected when on
 
         ['616', 'CounterToday',     'cell16',   'Vandaag','1','0'],
         ['616', 'Usage',            'cell17',   'Huidig gebruik','1','0'],
@@ -124,7 +126,7 @@ $(document).ready(function() {
         ['1009', 'Status',          'cell26',    'AppleTV', '1', '1'],
         ['934', 'Status',           'cell27',   'ESP Boven','1', 0],
         ['503', 'Status',           'cell28',   'Pioneer','1', 0],
-        ['372', 'Status',           'cell29',   'AppleTV3','1','1'], //6 is protected when on
+        ['1006', 'Status',           'cell29',   'AppleTV3','1','1'], //6 is protected when on
 
         // Page 2
         ['0', 'Desc',               'cell2_1',  'Zon',              '0','0'],
