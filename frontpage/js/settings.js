@@ -125,7 +125,7 @@ $(document).ready(function() {
         ['1003', 'Status',          'cell23',   'Buiten','1','1'],
 
         ['0', 'Temp',               'cell25',   'Temperatuur buiten (C)','0','0'],
-        ['1009', 'Status',          'cell26',    'AppleTV', '1', '1'],
+        ['1009', 'Status',          'cell26',    'Vero', '1', '1'],
         ['934', 'Status',           'cell27',   'ESP Boven','1', 0],
         ['3454', 'Status',           'cell28',   'Ketel','1', 0],
         ['1006', 'Status',           'cell29',   'AppleTV3','1','1'], //6 is protected when on
