@@ -98,7 +98,7 @@ $(document).ready(function() {
         ['0', 'Desc',               'cell2',    'Badkamer',     0, 0],
         ['363', 'Temp',             'cell2a',   'Badkamer',     1, 0],
         ['363', 'Humidity',         'cell2b',   'Badkamer',     0, 0],
-        ['12', 'ForecastStr',       'cell3',    'Woonkamer',    0, 0],
+        //['12', 'ForecastStr',       'cell3',    'Woonkamer',    0, 0],
         ['0', 'Desc',               'cell4',    'Schuurtje',    0, 0],
         ['802', 'Temp',             'cell4a',   'Schuurtje',    1, 0],
         ['802', 'Humidity',         'cell4b',   'Schuurtje',    0, 0],
