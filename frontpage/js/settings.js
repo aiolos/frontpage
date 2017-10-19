@@ -110,13 +110,15 @@ $(document).ready(function() {
         ['3443', 'Temp',             'cell7',    'Keuken', '1', '1'],
         ['3441', 'Temp',             'cell8',    'Woonkamer', '1', '1'],
         ['2475', 'Temp',             'cell9',    'Badkamer','1','1'],
-        ['447', 'Temp',            'cell10',   'Boven','1','1'], //6 is protected when on
+        ['3464', 'Temp',            'cell10',   'Boven','1','1'], //6 is protected when on
 
         ['616', 'CounterToday',     'cell16',   'Vandaag','1','0'],
         ['616', 'Usage',            'cell17',   'Huidig gebruik','1','0'],
         ['13', 'DirectionStr',      'cell18',   'Windrichting','0','0'],
-        ['406', 'Usage',            'cell19',   'Windmolen nu','1','0'],
-        ['406', 'CounterToday',     'cell20',   'Windmolen vandaag','1','0'],
+        ['3460', 'Temp',            'cell19',   'Thermostaat Room','1','0'],
+        ['3459', 'SetPoint',        'cell20',   'Thermostaat Set','1', 1],
+        //['406', 'Usage',            'cell19',   'Windmolen nu','1','0'],
+        //['406', 'CounterToday',     'cell20',   'Windmolen vandaag','1','0'],
 
         ['1006', 'Status',          'cell21',   'Receiver','1', 1],
         ['0', 'Tijd',               'cell22',   'Tijd','0','0'],
@@ -125,7 +127,7 @@ $(document).ready(function() {
         ['0', 'Temp',               'cell25',   'Temperatuur buiten (C)','0','0'],
         ['1009', 'Status',          'cell26',    'AppleTV', '1', '1'],
         ['934', 'Status',           'cell27',   'ESP Boven','1', 0],
-        ['503', 'Status',           'cell28',   'Pioneer','1', 0],
+        ['3454', 'Status',           'cell28',   'Ketel','1', 0],
         ['1006', 'Status',           'cell29',   'AppleTV3','1','1'], //6 is protected when on
 
         // Page 2

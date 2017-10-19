@@ -16,7 +16,7 @@ Setting up the frontpage requires some time. Please take a good look at the foru
 It will take some time and a lot of trial and error but it is definitely worth it!
 
 ## Installation instructions when using domoticz www folder
-1) copy the files from the frontpage map to domoticz/www so the frontpage.html and the subfolders file needs to be in domoticz/www
+1) copy the files from the frontpage map to domoticz/www so the frontpage.html and the subfolders file needs to be in domoticz/www (or create a symlink)
 
 2) edit settings.js
    
